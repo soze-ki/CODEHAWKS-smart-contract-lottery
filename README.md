@@ -1,3 +1,13 @@
+## About the Author
+
+**Jason King**.  
+This smart-contract-lottery course was built as part of the Cyfrin Foundry Solidity Course offered by **[Cyfrin Updraft / Patrick Collins]**.
+
+### Why I Took the Course
+- **Web3 security research** – Understanding attack vectors, reentrancy patterns, and security best practices is crucial for building robust DeFi protocols.
+- **Hands-on Solidity skills** – I wanted to move from theoretical knowledge to writing and deploying real smart contracts.    
+- **Portfolio & career growth** – A finished, audited DeFi protocol demonstrates practical expertise to future employers and collaborators.
+
 # Smart Contract Lottery - My Implementation
 
 A decentralized lottery built with Solidity and Foundry, using Chainlink VRF v2 for provably fair randomness.
@@ -33,4 +43,5 @@ This project uses **VRF v2** (not v2.5) for broader compatibility with chainlink
 - Uses `uint64` subscription IDs (VRF v2)
 - Updated remappings for chainlink-brownie-contracts
 - Fixed constructor parameters for VRFCoordinatorV2Mock
+
 
